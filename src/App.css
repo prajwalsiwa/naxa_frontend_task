@@ -1,0 +1,22 @@
+.services{
+  display: flex;
+  gap: 5rem;
+}
+.section1 {
+  /* border: 1px solid pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  
+
+
+}
+.section1 img{
+  /* border: 1px solid pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+
+}

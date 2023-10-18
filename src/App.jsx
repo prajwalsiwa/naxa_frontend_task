@@ -18,17 +18,22 @@ function App() {
   return (
     <div className="App">
        {data.map((item) => (
-        <div key={item.id}>
-        <div>{item.title}</div>
-        <div>{item.description1}</div>
-        <div>{item.description2}</div>
-        <div>
+        <div key={item.id} className='services'>
+          <div className="section1">
+
+        <div className='photo-section'>
           <img src={item.photo} alt={item.title} />
         </div>
-        <div>
+          </div>
+          <div className="section2">
+        <div className='services-icon'>
           <img src={item.icon} alt={item.title} />
         </div>
+        <div className='title'>{item.title}</div>
+        <div className='description1'>{item.description1}</div>
+        <div className='description2'>{item.description2}</div>
         <div>{item.service_order}</div>
+          </div>
         </div>
       ))}
     </div>
